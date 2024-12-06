@@ -1,0 +1,50 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: whitesmoke;
+}
+
+.product img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.product-info h4 {
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-weight: bold;
+}
+
+.order-summary {
+    background-color: whitesmoke;
+    padding: 90px;
+    border-radius: 5px;
+    background:whitesmoke;
+    
+}
+
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-summary li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100%;
+    
+}
